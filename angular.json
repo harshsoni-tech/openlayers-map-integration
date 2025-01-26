@@ -32,7 +32,8 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/ol/ol.css"
             ],
             "scripts": []
           },
@@ -98,5 +99,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "338241d2-164f-4b5e-bb29-a3a636fa609d"
   }
 }
