@@ -1,14 +1,13 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import Map from 'ol/Map';
 import View from 'ol/View';
 import { Tile as TileLayer, Vector as VectorLayer } from 'ol/layer';
 import OSM from 'ol/source/OSM';
 import VectorSource from 'ol/source/Vector';
-import GeoJSON from 'ol/format/GeoJSON';
-import { Fill, Icon, Style } from 'ol/style';
+import { Icon, Style } from 'ol/style';
 import { fromLonLat, toLonLat } from 'ol/proj';
 import { Feature } from 'ol';
-import { Point, Polygon } from 'ol/geom';
+import { Point } from 'ol/geom';
 import { locationPoints } from './map-location-points';
 
 @Component({
